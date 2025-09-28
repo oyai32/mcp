@@ -5,12 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/server.js",
-    "dev": "ts-node --esm src/http-server.ts"
-  },
-  "bin": {
-    "my-mcp-server": "./dist/server.js"
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
